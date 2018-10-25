@@ -12,5 +12,9 @@
 .fling-minislide img:nth-child(2){animation-delay:28s;}
 .fling-minislide img:nth-child(1){animation-delay:32s;}
 
-.fling-minislide {margin-left: 625px; top:140px;}
-}
+.fling-minislide {margin-left: 950px; top:140px;}
+@media (max-width: 1500px) {
+  /* For a screen < 960px, this CSS will be read */
+.fling-minislide {margin-left: 600px; top:140px;
+width: 600px; height: 475px;}
+  }
