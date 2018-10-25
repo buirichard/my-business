@@ -1,0 +1,15 @@
+.fling-minislide {width:700px; height:500px; overflow:hidden; position:relative; }
+.fling-minislide img{ position:absolute; animation:fling-minislide 36s infinite; opacity:0; width: 100%;text-align: center;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.fling-minislide img:nth-child(9){animation-delay:0s;}
+.fling-minislide img:nth-child(8){animation-delay:4s;}
+.fling-minislide img:nth-child(7){animation-delay:8s;}
+.fling-minislide img:nth-child(6){animation-delay:12s;}
+.fling-minislide img:nth-child(5){animation-delay:16s;}
+.fling-minislide img:nth-child(4){animation-delay:20s;}
+.fling-minislide img:nth-child(3){animation-delay:24s;}
+.fling-minislide img:nth-child(2){animation-delay:28s;}
+.fling-minislide img:nth-child(1){animation-delay:32s;}
+
+.fling-minislide {margin-left: 1145px; top:140px;}

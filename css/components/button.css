@@ -1,0 +1,31 @@
+.btn-white {
+	background-color: rgba(255,255,255,0.1);
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	border: 3px solid white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+.btn-white:hover {
+	color: black;
+	background-color: white;
+}
+
+.btn-visite {
+	background-color: rgba(190,190,190,0.4);
+	padding: 15px 20px;
+	border-radius: 15px;
+	color: black;
+	font-weight: bold;
+	border: 3px solid white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+.btn-visite:hover {
+	color: white;
+	background-color: black;
+}

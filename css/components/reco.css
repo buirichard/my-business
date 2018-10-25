@@ -1,0 +1,33 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.reco {
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.reco img {
+	width: 250px;
+	border-radius:10px;
+}
+
+.reco h3 {
+	flex-grow: 1;
+	padding: 0;
+	font-size: 20px;
+	margin-top: 1px;
+}
+
+.reco p{
+	text-align: justify;
+}
