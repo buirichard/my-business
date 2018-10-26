@@ -13,8 +13,46 @@
 .fling-minislide img:nth-child(1){animation-delay:32s;}
 
 .fling-minislide {margin-left: 950px; top:140px;}
+
+@media (max-width: 1700px) {
+  /* For a screen < 960px, this CSS will be read */
+.fling-minislide {margin-left: 850px; top:140px;
+width: 700px; height: 500px;}
+}
 @media (max-width: 1500px) {
   /* For a screen < 960px, this CSS will be read */
-.fling-minislide {margin-left: 600px; top:140px;
-width: 600px; height: 475px;}
-  }
+.fling-minislide {margin-left: 750px; top:140px;
+width: 700px; height: 500px;}
+}
+@media (max-width: 1400px) {
+  /* For a screen < 960px, this CSS will be read */
+.fling-minislide {margin-left: 650px; top:140px;
+width: 600px; height: 500px;}
+}
+@media (max-width: 1300px) {
+  /* For a screen < 960px, this CSS will be read */
+.fling-minislide {margin-left: 650px; top:140px;
+width: 450px; height: 370px;}
+
+}
+@media (max-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+.fling-minislide    {margin-left: 250px;
+    top: 450px;
+    width: 500px;
+    height: 420px}
+ }   
+   @media (max-width: 800px) {
+  /* For a screen < 960px, this CSS will be read */
+.fling-minislide {margin-left: 113px;
+    top: 476px;
+    width: 545px;
+    height: 370px;}
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+.fling-minislide {margin-left: 194px;
+    top: 481px;
+    width: 575px;
+    height: 370px;}
+ }
