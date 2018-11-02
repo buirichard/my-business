@@ -1,0 +1,28 @@
+.text {
+	align-items: center;
+	display: flex;
+}
+.app p {
+    
+    justify-content: space-between;
+    border-radius: 35px;
+    font-size: 15px;
+    flex-grow: 1;
+    width: 350px;
+    text-align: justify;
+    padding: 50px; 
+    margin:50px;
+}
+
+.text {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.app a {
+font-size: 35px;
+
+}
+.app a:hover {
+	color: orange;
+}
