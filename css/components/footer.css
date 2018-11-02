@@ -1,4 +1,4 @@
-.footer {
+#footer {
 	background-color:#E3BC31;
 	display:flex;
 	justify-content: space-between;
@@ -13,18 +13,18 @@ align-items:center;
 list-style-type: none;
 }
 
-.footer img{
+#footer img{
 	height: 30px;
 }
 
-.footer i{
+#footer i{
 	color:white;
 	font-size: 22px;
 	padding-right:10px;
 	padding-left:10px;
 }
 
-.footer i:hover{
+#footer i:hover{
 	color:#F37C57;
 	transition:0.3s ease;
 }

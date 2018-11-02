@@ -1,10 +1,3 @@
-
-  /* J'ai un PC qui fait 1920 x 1080 en résolution et 928px de hauteur dans le navigateur.
-  J'ai essayé de rendre mes slides le plus responsive possible (par rapport à mon écran) mais c'est
-  quasi impossible compte tenu du fait qu'il ne suffit pas de "resize" mes photos
-  mais carrément de jouer avec le décalage avec le top et le left pour cadrer mes slides et avoir un rendu esthétique...
-  Du moins à mon niveau je n'ai pas réussi à rendre cela responsive à 100%. */
-
 .fling-minislide {width:700px; height:500px; overflow:hidden; position:relative; }
 .fling-minislide img{ position:absolute; animation:fling-minislide 36s infinite; opacity:0; width: 100%;text-align: center;}
 
@@ -19,71 +12,47 @@
 .fling-minislide img:nth-child(2){animation-delay:28s;}
 .fling-minislide img:nth-child(1){animation-delay:32s;}
 
-.fling-minislide {margin-left:1050px; top:140px;}
+.fling-minislide {margin-left: 950px; top:140px;}
 
 @media (max-width: 1700px) {
+  /* For a screen < 960px, this CSS will be read */
 .fling-minislide {margin-left: 850px; top:140px;
 width: 700px; height: 500px;}
 }
 @media (max-width: 1500px) {
+  /* For a screen < 960px, this CSS will be read */
 .fling-minislide {margin-left: 750px; top:140px;
 width: 700px; height: 500px;}
 }
 @media (max-width: 1400px) {
+  /* For a screen < 960px, this CSS will be read */
 .fling-minislide {margin-left: 650px; top:140px;
 width: 600px; height: 500px;}
 }
 @media (max-width: 1300px) {
-   .fling-minislide { margin-left: 250px;
-    top: 500px;
-    width: 650px;
-    height: 370px;
-}
+  /* For a screen < 960px, this CSS will be read */
+.fling-minislide {margin-left: 650px; top:140px;
+width: 450px; height: 370px;}
 
 }
 @media (max-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
 .fling-minislide    {margin-left: 250px;
     top: 450px;
     width: 500px;
-    height: 420px;}
+    height: 420px}
  }   
    @media (max-width: 800px) {
+  /* For a screen < 960px, this CSS will be read */
 .fling-minislide {margin-left: 113px;
     top: 476px;
     width: 545px;
     height: 370px;}
 }
 @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
 .fling-minislide {margin-left: 194px;
     top: 481px;
     width: 575px;
     height: 370px;}
  }
-
- @media (max-width: 1024px) {
- 	.fling-minislide { margin-left: 150px;
-    top: 650px;
-    width: 750px;
-    height: 450px;}
- }
-
-  @media (max-width: 1170px) {
- 	.fling-minislide {margin-left: 200px;
-    top: 550px;
-    width: 650px;
-    height: 450px;}
- }
-
-@media (max-width: 790px) {
- 	.fling-minislide {margin-left: 25px;
-    top: 600px;
-    width: 450px;
-    height: 450px;}
- }
-
-
-  /* J'ai un PC qui fait 1920 x 1080 en résolution et 928px de hauteur dans le navigateur.
-  J'ai essayé de rendre mes slides le plus responsive possible (par rapport à mon écran) mais c'est
-  quasi impossible compte tenu du fait qu'il ne suffit pas de "resize" mes photos
-  mais carrément de jouer avec le décalage avec le top et le left pour cadrer mes slides et avoir un rendu esthétique...
-  Du moins à mon niveau je n'ai pas réussi à rendre cela responsive à 100%. */
