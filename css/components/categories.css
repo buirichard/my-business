@@ -3,8 +3,23 @@
 	flex-wrap: wrap;
 }
 
-.cards2:hover {
-	background-color: 
+.transition-width {	
+    /* Syntaxe standard */
+    transition-property: width, background;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    
+    /* Hack Safari */
+    -webkit-transition-property: width, background;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-delay: 1s;    
+}
+
+.transition-width:hover {
+	width: 80%;
+	background: #008ed6;
 }
 .categories {
 	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
@@ -18,7 +33,7 @@
     flex-basis: 250px;
     flex-grow: 1;
 }
-Z
+
 
 .categories img {
 	width: 250px;
@@ -46,7 +61,7 @@ Z
 
 .btn:hover {
 	color: white;
-	background-color: black;
+	background-color: #41BAC2;
 }
 
 #museums {
@@ -106,3 +121,6 @@ Z
 }
 
 
+.remplissage {
+	margin-top: 50px;
+}
